@@ -17,19 +17,19 @@ The GoTronik RBS-067 module is connected to a separate power source and controll
 The web application features three tabs: Dashboard, History, and Settings. The Dashboard serves as the main page, displaying updated measurements of humidity, temperature, and pressure every 5 seconds. Here, users can also activate the humidifier, choose the operating mode, and, in manual mode, set the target humidity level (see figure 3). The History tab allows users to select a date from a calendar, with green highlighting indicating days for which measurement files exist on the SD card. Upon selecting a date, users can view graphs of recorded humidity, pressure, and temperature values for the chosen day (see figure 4). The Settings tab allows users to configure the IP address assigned to the ESP32 module (see figure 5). Upon first launching the application, users are prompted to enter this IP address to start using the humidifier.
 
 ![Figure 1](Images/1.png)  
-   *RGB LED illuminated in red – device ready for operation*
+   *Figure 1: RGB LED illuminated in red – device ready for operation*
 
 ![Figure 2](Images/2.png)  
-   *RGB LED illuminated in green – operating in automatic mode*
+   *Figure 2: RGB LED illuminated in green – operating in automatic mode*
 
 ![Figure 3](Images/3.png)  
-   *Dashboard tab – displaying current humidity, temperature, and pressure values, as well as active manual mode with target humidity set to 65%*
+   *Figure 3: Dashboard tab – displaying current humidity, temperature, and pressure values, as well as active manual mode with target humidity set to 65%*
 
 ![Figure 4](Images/4.png)  
-   *History tab – showing humidity graph for 18.04.2023*
+   *Figure 4: History tab – showing humidity graph for 18.04.2023*
 
 ![Figure 5](Images/5.png)  
-   *Settings tab – displaying field to set the assigned IP address of the device*
+   *Figure 5: Settings tab – displaying field to set the assigned IP address of the device*
 
 ## Modules and Components Used		
 
@@ -55,7 +55,7 @@ The following components were used for the project:
 Figure 6 shows a practical method for connecting all components. Figure 7 provides a detailed wiring diagram with pin designations.
 
 ![Figure 6](Images/6.png)  
-   *Practical connection method for components with designations*
+   *Figure 6: Practical connection method for components with designations*
 
 ![Figure 7](Images/7.png)  
-   *Wiring diagram for all components with pin designations*
+   *Figure 7: Wiring diagram for all components with pin designations*
